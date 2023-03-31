@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.card1 ,.card2 {
+    background-color: hsl(213, 19%, 18%);
+    width: 300px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.img {
+    background-color: hsl(216, 12%, 8%);
+    padding: 10px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+
+
+
+
+
+}
+
+.star {
+    margin-bottom: 1rem;
+
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.text p {
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+   
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+
+.base {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    
+}
+
+.base:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.base:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    transition: 0.3s;
+}
+
+
+
+.img2{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-bottom: 1rem;
+    
+   
+
+    
+}
+
+.selected{
+    background-color: hsl(216, 12%, 8%);
+    width: 120px;
+    border-radius: 20px;
+    padding: 4px;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+
+h3{
+    color: hsl(25, 97%, 53%);
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    
+    
+    
+    
+}
+
+h4{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.txt p{
+    color: hsl(216, 12%, 54%);
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
